@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sectionvideo{
+    background-image: url(https://zeblearn.com/best-sap-training-in-india/assets/images/video-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color: #172238;
+    padding: 120px 0px;
+}
+.left-content{
+    color: #fff;
+}
+.left-content span{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.left-content h4{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.left-content h4 em{
+    font-style: normal;
+    color: #f5a425;;
+}
+p{
+    font-size: 13px;
+    line-height: 22px;
+}
+ul{
+    padding: 10px;
+    margin: 10px;
+    list-style: disc;
+}
+.main-button{
+    margin-top: 30px;
+}
+.main-button a{
+    background-color: #f5a425;
+    color: #000;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+}
+.video-item{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto 0;
+}
+.video-item figure{
+    position: relative;
+    width: 100%;
+    font-size: 0;
+}
+.video-caption{
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(250, 250, 250, 0.75);
+    height: 80px;
+    width: 98%;
+    padding: 27px 30px;
+    bottom: 0;
+}
