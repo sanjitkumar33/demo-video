@@ -3,6 +3,126 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* main header part */
+.main-header{
+    background-color: rgba(22, 34, 57, 0.95);
+    height: 80px;
+    width: 100%;
+    z-index: 12;
+    top: 0;
+    position: fixed;
+}
+.main-header .logo{
+    float: left;
+    line-height: 80px;
+    padding-left: 60px;
+}
+.main-header .logo a {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+}
+.main-menu{
+    float: right;
+    padding-right: 60px;
+}
+/* ul{
+    padding: 10px;
+    margin: 10px;
+    list-style: disc;
+} */
+.main-menu li{
+    display: inline-block;
+    line-height: 79px;
+    margin-left: 15px;
+    position: relative;
+}
+.main-menu li a{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    color: #fff;
+
+}
+/* start header overlay */
+#bg-video{
+    z-index: 1!important;
+    min-width: 100%;
+    min-height: 75vh;
+    max-width: 100%;
+    max-height: 75vh;
+    object-fit: cover;
+}
+.main-banner{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+.main-banner .caption{
+    text-align: center;
+    position: absolute;
+    width: 98%;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.main-banner .caption h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.main-banner .caption h6{
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.main button{
+    text-align: left;
+    margin-top: 50px;
+}
+.main-button a{
+
+}
+.video-overlay{
+    background-image: url(https://zeblearn.com/best-sap-training-in-india/assets/img/bann-bg/SandT2.jpg);
+    width: 100%;
+    top: 80px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    
+    
+}
 .sectionvideo{
     background-image: url(https://zeblearn.com/best-sap-training-in-india/assets/images/video-bg1.jpg);
     background-repeat: no-repeat;
@@ -75,3 +195,137 @@ ul{
     padding: 27px 30px;
     bottom: 0;
 }
+/* sap certification */
+.comingsoon{
+    background-image: url(https://zeblearn.com/best-sap-training-in-india/assets/images/coming-soon-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-color: #172238;
+    padding: 60px 0px;
+}
+.continer h4{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.continer h4 em{
+    font-style: normal;
+    color: #f5a425;
+}
+.continer .counter .days{
+    margin-right: 4%;
+    width: 20%;
+    height: 140px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: rgba(250, 250, 250, 0.1);
+
+}
+.continer .counter .days .value{
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+.continer .counter span{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f5a425;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    display: block;
+}
+.continer .counter .hours{
+    margin-right: 4%;
+    width: 20%;
+    height: 140px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: rgba(250, 250, 250, 0.1);
+}
+.continer .counter .hours .value{
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+.continer .counter .minutes{
+    margin-right: 4%;
+    width: 20%;
+    height: 140px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: rgba(250, 250, 250, 0.1);
+}
+.continer .counter .minutes .value{
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+.continer .counter .seconds{
+    margin-right: 4%;
+    width: 20%;
+    height: 140px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: rgba(250, 250, 250, 0.1);
+}
+.continer .counter .seconds .value{
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+}
+.right-content{
+    margin-left: 30px;
+}
+.top-content{
+    margin-bottom: -8px;
+}
+.comingsoon form{
+    background-color: rgba(250, 250, 250, 0.1);
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+}
+.comingsoon form input{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(250, 250, 250, 0.1);
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+.button{
+    background: #562a8b;
+    padding: 12px 34px;
+    color: #fff;
+    font-size: 16px!important;
+    margin-bottom: 20px!important;
+    border-radius: 50px;
+    transition: .4s;
+}
+
